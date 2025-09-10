@@ -1,0 +1,153 @@
+/* Färger: 
+#4B352A - brun
+#b1845b - ljus-brun
+#CA7842 - orange
+#5a7c5d - grön
+#F0F2BD - gul
+
+*/
+
+
+
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.knapp {
+    color:black;
+}
+
+.hel-header {
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.header {
+    background-color: #709273;
+    font-size: 12px;
+    color: black;
+    display: flex; 
+    justify-content: center;  /* centrerar innehållet */
+    gap: 10px;
+    max-width: 100%;
+    border: solid #709273 10px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+
+.header-knapp {
+    padding: 0 20px;
+
+}
+
+.kontor {
+    object-fit: cover;
+    max-width: 100%;
+    margin-top: -30px;
+    border-bottom: solid 10px #ffd2a9;
+
+}
+
+.intro-hela {
+    background: #ffd2a9;
+    color: #000000;
+    padding: 20px 30px 40px 20px;
+    margin-top: -160px;
+    font-size: 20px;
+    text-align: center;
+    border: #ffd2a9 solid 10px;
+    border-radius: 35px;
+    position: relative;
+    z-index: 5;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produkter {
+    text-align: center;
+}
+
+.kolumner {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#tjänster {
+    font-size: 30px;
+}
+
+.om-mig {
+    background-color: #ffd2a9;
+    padding: 50px 0 100px 0;
+}
+ 
+.självporträtt {
+    width: 600px;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+.mig-kolumner {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.om-mig-text {
+    font-size: 20px;
+}
+
+.självporträtt {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.footer-kolumner {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.footer-kolumn {
+    background: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #709273;
+    border: #709273 5px solid;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: -30px;
+}
+
+.författare {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.footer-bild {
+    margin-top: -40px;
+}
