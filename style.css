@@ -18,7 +18,7 @@ a {
 }
 
 .knapp {
-    color:black;
+    color:#003333;
 }
 
 .hel-header {
@@ -28,14 +28,14 @@ a {
 }
 
 .header {
-    background-color: #709273;
+    background-color: #007575;
     font-size: 12px;
-    color: black;
+    color: #003f3f;
     display: flex; 
     justify-content: center;  /* centrerar innehållet */
     gap: 10px;
     max-width: 100%;
-    border: solid #709273 10px;
+    border: solid #007575 10px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     
@@ -134,8 +134,8 @@ a {
 }
 
 footer {
-    background-color: #709273;
-    border: #709273 5px solid;
+    background-color: #007575;
+    border: #007575 5px solid;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     margin-top: -30px;
@@ -150,4 +150,8 @@ footer {
 
 .footer-bild {
     margin-top: -40px;
+}
+
+.webb-text {
+    color: #003333;
 }
