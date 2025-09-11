@@ -121,10 +121,36 @@ a {
     margin-top: 20px;
 }
 
+.kontakt-kolumner {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 40px;
+}
+
+.kontakt-kolumn {
+    text-align: left;
+}
+
+.frågor {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.adress-rad {
+    margin-top: -17px;
+    margin-left: 57px;
+
+}
+
+.mejl-rad {
+    margin-top: -17px;
+}
+
 .footer-kolumner {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 25px;
     margin-bottom: 25px;
 }
 
