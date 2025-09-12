@@ -78,15 +78,26 @@ a {
 
 .produkter {
     text-align: center;
+    scroll-margin-top: 150px; /* Justerar vart jag hamnrar vid min nya sida när jag klickar på exempelvis tjänster i headern. Från början syntes ej rubriken när jag klickiade. */
+    padding: 40px 0;
 }
 
 .kolumner {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px; /* Justerar hur långt isär kolumnerna hamnar. Fungerar ihop med justify-content */
     font-size: 20px;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
+    margin: 0 100px;
+}
+
+.kolumn {
+    background: #000000;
+    color: white;
+    border: #000000 solid 5px;
+    border-radius: 35px;
+    padding: 20px 40px;
 }
 
 #tjänster {
@@ -96,6 +107,7 @@ a {
 .om-mig {
     background-color: #ffd2a9;
     padding: 50px 0 100px 0;
+    scroll-margin-top: 150px;
 }
  
 .självporträtt {
